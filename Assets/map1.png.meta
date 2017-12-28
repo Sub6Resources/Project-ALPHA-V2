@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2478c0eb42d151459ffc677eec38ae8
+guid: d8bf3213811667d488eb7d7ca40ca02c
 timeCreated: 1476906810
 licenseType: Pro
 TextureImporter:
@@ -22,14 +22,17 @@ TextureImporter:
     21300030: hallway4to3to2
     21300032: room4
     21300034: halfB
-  serializedVersion: 2
+  externalObjects: {}
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -39,23 +42,22 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -63,12 +65,30 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: room1
+    - serializedVersion: 2
+      name: room1
       rect:
         serializedVersion: 2
         x: 360
@@ -79,7 +99,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hallway1to2
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hallway1to2
       rect:
         serializedVersion: 2
         x: 359
@@ -90,7 +113,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room2
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room2
       rect:
         serializedVersion: 2
         x: 355
@@ -101,7 +127,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room5
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room5
       rect:
         serializedVersion: 2
         x: 375
@@ -112,7 +141,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room6
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room6
       rect:
         serializedVersion: 2
         x: 352
@@ -123,7 +155,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bathroom
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bathroom
       rect:
         serializedVersion: 2
         x: 378
@@ -134,7 +169,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room8
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room8
       rect:
         serializedVersion: 2
         x: 378
@@ -145,7 +183,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: somethingroom
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: somethingroom
       rect:
         serializedVersion: 2
         x: 389
@@ -156,7 +197,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room11
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room11
       rect:
         serializedVersion: 2
         x: 389
@@ -167,7 +211,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hallway7to11
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hallway7to11
       rect:
         serializedVersion: 2
         x: 370
@@ -178,7 +225,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hallway8tohallway
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hallway8tohallway
       rect:
         serializedVersion: 2
         x: 383
@@ -189,7 +239,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room7
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room7
       rect:
         serializedVersion: 2
         x: 349
@@ -200,7 +253,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hallway6to7
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hallway6to7
       rect:
         serializedVersion: 2
         x: 356
@@ -211,7 +267,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room10
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room10
       rect:
         serializedVersion: 2
         x: 332
@@ -222,7 +281,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room3
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room3
       rect:
         serializedVersion: 2
         x: 332
@@ -233,7 +295,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hallway4to3to2
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hallway4to3to2
       rect:
         serializedVersion: 2
         x: 330
@@ -244,7 +309,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: room4
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: room4
       rect:
         serializedVersion: 2
         x: 335
@@ -255,7 +323,10 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: halfB
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: halfB
       rect:
         serializedVersion: 2
         x: 254
@@ -265,12 +336,11 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -38, y: 42.5}
-        - {x: -38, y: -42.5}
-        - {x: 38, y: -42.5}
-        - {x: 38, y: 42.5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

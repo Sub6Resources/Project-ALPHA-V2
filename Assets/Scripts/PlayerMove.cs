@@ -22,7 +22,7 @@ public class PlayerMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         player = GetComponent<Rigidbody>();
-        cameraTransform = transform.FindChild("Main Camera");
+        cameraTransform = transform.Find("Main Camera");
         cameraSwitcher = FindObjectOfType<CameraSwitcher>();
         inventoryChanger = FindObjectOfType<InventoryChanger>();
 	}
